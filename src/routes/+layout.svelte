@@ -28,5 +28,6 @@
 <slot />
 
 <style>
+	@import url("https://unpkg.com/@picocss/pico@latest/css/pico.classless.min.css");
 	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 </style>
