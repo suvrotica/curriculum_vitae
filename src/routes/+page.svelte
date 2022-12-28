@@ -18,7 +18,7 @@
             address:
                 "188, Raja Subodh Chandra Mallick Rd, Jadavpur, Kolkata, West Bengal 700032, India",
             phone: "+91-33-2457-2227",
-            href: "http://www.jaduniv.edu.in",
+            href: "http://jadavpuruniversity.in/",
             marks: "First Class ",
             years: "1994-1998",
         },
