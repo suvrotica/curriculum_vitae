@@ -40,3 +40,10 @@
         </tbody>
     </table>
 </main>
+
+<style>
+    main {
+        margin: auto;
+		width: 95%;
+    }
+</style>

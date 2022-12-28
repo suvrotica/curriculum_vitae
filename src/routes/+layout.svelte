@@ -1,33 +1,34 @@
-<script >
-	import PageHeader from '../lib/components/PageHeader.svelte';
-	import Navigation from '../lib/components/Navigation.svelte';
+<script>
+	import Navigation from "../lib/components/Navigation.svelte";
 
 	let links = [
 		{
-			href: '/',
-			title: 'Home',
-			image: '/Images/home.svg'
+			href: "/",
+			title: "Home",
+			image: "/Images/home.svg",
 		},
 		{
-			href: '/about',
-			title: 'About',
-			image: '/Images/user.svg'
+			href: "/about",
+			title: "About",
+			image: "/Images/user.svg",
 		},
 		{
-			href: '/contact',
-			title: 'Contact',
-			image: '/Images/phone.svg'
-		}
+			href: "/contact",
+			title: "Contact",
+			image: "/Images/phone.svg",
+		},
 	];
 
-	let logo_image = '/Images/Logo.jpg';
+	let logo_image = "/Images/Logo.jpg";
 </script>
 
-<PageHeader />
-<Navigation {logo_image} {links} />
+<header>
+	<Navigation {links} />
+</header>
+
 <slot />
 
 <style>
 	@import url("https://unpkg.com/@picocss/pico@latest/css/pico.classless.min.css");
-	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+	@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 </style>
