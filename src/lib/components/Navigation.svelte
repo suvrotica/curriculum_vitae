@@ -18,8 +18,6 @@
 				>
 			</li>
 		{/each}
-		
-		<li><a href="/favicon.png">CV <span><img src="/Images/download.svg" alt="download icon"></span></a></li>
 	</ul>
 </nav>
 

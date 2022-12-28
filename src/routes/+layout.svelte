@@ -17,9 +17,13 @@
 			title: "Contact",
 			image: "/Images/phone.svg",
 		},
+		{
+			href: "/Images/download.svg",
+			title: "CV",
+			image: "/Images/download.svg",
+		}
 	];
 
-	let logo_image = "/Images/Logo.jpg";
 </script>
 
 <header>
