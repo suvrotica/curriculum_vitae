@@ -1,6 +1,20 @@
-<script>
-	import Navigation from "../lib/components/Navigation.svelte";
+<script  lang="ts">
 
+    import { onMount } from 'svelte';
+    import "@picocss/pico";
+    let fontLoaded = false;
+  
+    onMount(async () => {
+      const fontLink = document.createElement("link");
+      fontLink.href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap";
+      fontLink.rel = "stylesheet";
+      document.head.appendChild(fontLink);
+      fontLoaded = true;
+    });
+ 
+  
+
+	import Navigation from "../lib/components/Navigation.svelte";
 	let links = [
 		{
 			href: "/",
@@ -31,8 +45,11 @@
 </header>
 
 <slot />
-
 <style>
-	@import url("https://unpkg.com/@picocss/pico@latest/css/pico.classless.min.css");
-	@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
-</style>
+	:global(body) {
+		font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+	 }
+		
+	
+	 </style>
