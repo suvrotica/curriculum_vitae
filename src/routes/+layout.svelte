@@ -41,13 +41,17 @@
   <article>
     <SectionHeader>
       <p slot="leftContent">CURRICULUM VITAE</p>
-      <p slot="rightContent">SUVRO GHOSH</p>
+      <p slot="rightContent">EDUCATION</p>
     </SectionHeader>
     <header>
       <Navigation {links} />
     </header>
 
     <slot />
+    <SectionHeader>
+      <p slot="leftContent">CURRICULUM VITAE</p>
+      <p slot="rightContent">WORK</p>
+    </SectionHeader>
     <footer>Footer</footer>
   </article>
 </main>
