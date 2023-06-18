@@ -1,15 +1,16 @@
-<script >
-	export let leftText;
-	export let rightText;
+<!-- SectionHeader.svelte -->
+<script>
+  export let leftContent;
+  export let rightContent;
 </script>
 
 <div>
-	<nav>
-		<ul>
-			<li>{@html leftText}</li>
-		</ul>
-		<ul>
-			<li>{@html rightText}</li>
-		</ul>
-	</nav>
+  <nav>
+    <ul>
+      <li><slot name="leftContent">{leftContent}</slot></li>
+    </ul>
+    <ul>
+      <li><slot name="rightContent">{rightContent}</slot></li>
+    </ul>
+  </nav>
 </div>

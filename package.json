@@ -15,6 +15,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@picocss/pico": "^1.5.10"
+		"@picocss/pico": "^1.5.10",
+		"easymde": "^2.18.0"
 	}
 }
