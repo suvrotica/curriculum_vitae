@@ -1,5 +1,22 @@
 <script>
-  export let links;
+  let links = [
+    {
+      href: "/",
+      title: "&#8962; Home",
+    },
+    {
+      href: "/about",
+      title: "&#8505; Info",
+    },
+    {
+      href: "/contact",
+      title: "&#9993; Contact",
+    },
+    {
+      href: "/Images/download.svg",
+      title: "&#8681; CV",
+    },
+  ];
 </script>
 
 <nav>

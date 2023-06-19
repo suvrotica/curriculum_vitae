@@ -17,36 +17,17 @@
 
   import Navigation from "$lib/components/Navigation.svelte";
   import SectionHeader from "$lib/components/SectionHeader.svelte";
-  let links = [
-    {
-      href: "/",
-      title: "&#8962; Home",
-    },
-    {
-      href: "/about",
-      title: "&#8505; About",
-    },
-    {
-      href: "/contact",
-      title: "&#9993; Contact",
-    },
-    {
-      href: "/Images/download.svg",
-      title: "&#8681; CV",
-    },
-  ];
 </script>
 
 <main class="container">
   <article>
+    <header>
+      <Navigation />
+    </header>
     <SectionHeader>
       <p slot="leftContent">CURRICULUM VITAE</p>
       <p slot="rightContent">EDUCATION</p>
     </SectionHeader>
-    <header>
-      <Navigation {links} />
-    </header>
-
     <slot />
     <SectionHeader>
       <p slot="leftContent">CURRICULUM VITAE</p>
