@@ -5,6 +5,10 @@
 </script>
 
 <main class="container">
+<h1>
+my education 
+</h1>
+
   <Education {phone_icon_image} />
 </main>
 
